@@ -16,6 +16,9 @@ On Clicking create a new Station
 ![CreateStation-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-1.png)
 ![CreateStation-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-2.png)
 
+Similarly update and delete functionality is also present...
+Have fun testing the application 🤗.
+
 ## Backend (SpringBoot) :
 - The entity is Station which has following attributes : 
   =>attributes = {private Long station_id,private String station_name,private byte[] station_image,private Double station_pricing,private String station_address}
