@@ -3,12 +3,16 @@
 ## EV station CRUD Application : 
 
 ## Demonstration Images : 
+Home Page
 ![Home-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/HOME.png)
 ![Home-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Home2.png)
+Sorting is enabled for all options except station_image
 ![SortByPrice-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/SortByPrice-1.png)
 ![SortByPrice-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/SortByPrice-2.png)
+On Clicking show only 10 records
 ![ShowOnlyTenRecords-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/only10records-1.png)
 ![ShowOnlyTenRecords-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Only10records-2.png)
+On Clicking create a new Station
 ![CreateStation-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-1.png)
 ![CreateStation-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-2.png)
 
