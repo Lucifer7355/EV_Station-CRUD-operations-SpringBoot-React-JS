@@ -2,6 +2,16 @@
 
 ## EV station CRUD Application : 
 
+## Demonstration Images : 
+![Home-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/HOME.png)
+![Home-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Home2.png)
+![SortByPrice-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/SortByPrice-1.png)
+![SortByPrice-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/SortByPrice-2.png)
+![ShowOnlyTenRecords-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/only10records-1.png)
+![ShowOnlyTenRecords-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Only10records-2.png)
+![CreateStation-1](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-1.png)
+![CreateStation-2](https://github.com/Lucifer7355/EV_Station-CRUD-operations-SpringBoot-React-JS/blob/main/Demonstration_images/Create-2.png)
+
 ## Backend (SpringBoot) :
 - The entity is Station which has following attributes : 
   =>attributes = {private Long station_id,private String station_name,private byte[] station_image,private Double station_pricing,private String station_address}
@@ -54,7 +64,16 @@
 - Each station can be updated,deleted and created in the DB table by REST APIs call.
 - There is a button which says only 10 records are to be fetched from DB table. It will fetch and display top 10 records from table.
 - Each attributes in the display table can be toggled to sort except station_image, update and delete buttons.
+- Whenever the JSON is received from backend, before rendering it on frontend, the image is base64 decoded and then rendered on the page.
 
+## Steps to run the code :
+- clone the repository.
+- go to the backend folder and run the java-backend server using any of your favourite IDE(STS 4 preferred).
+- Now go to frontend folder and open the code in VS-Code. Now run ```npm i ``` so that all the required node modules are downloaded from the npm repository. Now just fire the command ```npm start```.
+- Now move to the frontend react web page which is running by default on port 3000. You can test the application now.
+- One more important thing is connecting a MySQL DB to the Java Backend. So Create a DB from MySQL workbench and change the application.properties file as per the database connection and database name.
+- Table creation will be taken care of by JPA repository.
+- Now you can perform crud operations nicely from the frontend.
 
 Hence all the use cases have been covered as per the question statement in Veridic HireSprint2023.	
   
